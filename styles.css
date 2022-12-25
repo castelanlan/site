@@ -2,6 +2,10 @@
     --link-color: #292929;
 }
 
+::selection {
+    color: white;
+    background: rgba(0 0 0 / 0.7);
+}
 
 *,
 html,
@@ -54,6 +58,7 @@ ul.nav>li>a {
 ul.nav>li>a:hover {
     box-shadow: inset 10rem 0 0 0 var(--link-color);
     color: white;
+    text-decoration: underline;
 }
 
 ul.nav>li>a:active {
@@ -62,8 +67,6 @@ ul.nav>li>a:active {
 }
 
 ul.nav>p {
-    /* padding: 1vmin; */
-    /* margin: auto; */
     display: inline;
     margin-left: 3vmin;
     line-height: 4rem;
@@ -71,6 +74,35 @@ ul.nav>p {
     font-size: 2.5rem;
     font-weight: 900;
     letter-spacing: -0.05em;
+}
+
+#footer>li {
+    float: right;
+    padding: 2em;
+    margin: 1em;
+    font-family: Inter, sans-serif;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out, opacity .1s ease-in-out;
+    list-style-type: none;
+}
+
+#footer>li>a {
+    color: #000;
+}
+
+#footer>li>a:link {
+    text-decoration: none;
+}
+#footer>li>a:visited {
+    color: #666;
+    text-decoration: none;
+}
+#footer>li>a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+#footer>li>a:active {
+    color: #666;
+    text-decoration: underline;
 }
 
 .content {
@@ -148,7 +180,7 @@ button:active .button_top {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.8em;
     line-height: 1.5em;
-    padding-bottom: .3em;
+    margin-bottom: .3em;
     border-bottom: 2px dashed grey;
 }
 
@@ -186,7 +218,7 @@ div.b4>p {
     box-shadow: 0 .05em .1em rgba(0, 0, 0, 0.4);
 
     color: transparent;
-    
+
     text-shadow: 0 0 .01em rgba(0 0 0 / 0.2);
     background-clip: text;
     background-image: linear-gradient(10deg, #386641, #6a994e, #a7c957);
