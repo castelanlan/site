@@ -25,6 +25,21 @@ body {
     flex-direction: column;
 }
 
+header::before {
+    content: ' ' ;
+    background-image: radial-gradient(#626262, #ebebeb);
+    position: absolute;
+    clip-path: inset(1em 1em 1em 1em);
+    bottom: 4em;
+    left: 30vw;
+    right: 30vw;
+    height: 3vh;
+    border-radius: 5px;
+    background-size: 150%;
+    background-position: 200%;
+    animation: animated-gradient 3s infinite alternate-reverse;
+}
+
 header {
     border-bottom: #9d9d9d;
     height: 4rem;
@@ -33,7 +48,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 @media only screen and (max-width: 574px) {
