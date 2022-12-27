@@ -17,12 +17,7 @@ title.addEventListener("click", function () {
     }
 })
 
-var i = 0
-left.addEventListener('click', function () {
-    i++;
-    if (i % 2 == 0){
-        left.innerText = 'Castelan'
-    } else {
-        left.innerText = 'Cstln'
-    }
+left.addEventListener('click', function() {
+    left.style.borderRight = '.15em solid black';
+    left.style.animation = 'blink-caret .8s step-end infinite'
 })

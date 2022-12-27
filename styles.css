@@ -110,7 +110,14 @@ ul.nav>p {
     font-size: 2.5rem;
     font-weight: 900;
     letter-spacing: -0.05em;
+    padding-right: .1em;
 }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #000; }
+  }
 
 #footer>li {
     float: right;
@@ -121,25 +128,30 @@ ul.nav>p {
     list-style-type: none;
 }
 
-#footer>li>a {
+#footer>li>a,
+.contato>ul>li>a {
     color: #000;
 }
 
-#footer>li>a:link {
+#footer>li>a:link,
+.contato>ul>li>a:link {
     text-decoration: none;
 }
 
-#footer>li>a:visited {
+#footer>li>a:visited,
+.contato>ul>li>a:visited {
     color: #666;
     text-decoration: none;
 }
 
-#footer>li>a:hover {
+#footer>li>a:hover,
+.contato>ul>li>a:hover {
     color: #000;
     text-decoration: underline;
 }
 
-#footer>li>a:active {
+#footer>li>a:active,
+.contato>ul>li>a:active {
     color: #666;
     text-decoration: underline;
 }
@@ -273,4 +285,16 @@ div.b4>p:hover {
     to {
         background-position: -200%;
     }
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+}
+
+.contato>ul>li {
+    list-style-type: none;
+    flex-grow: 1;
+    padding: 1em;
+    font-family: Inter, sans-serif;
 }
