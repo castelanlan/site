@@ -1,4 +1,4 @@
+__pycache__
 fotos
-fotos copy
-*.png
-site.webmanifest
+static/assets/*.jpg
+run.sh
