@@ -20,4 +20,5 @@ title.addEventListener("click", function () {
 left.addEventListener('click', function() {
     left.style.borderRight = '.15em solid black';
     left.style.animation = 'blink-caret .8s step-end infinite'
+    // left.contentEditable = 'true'
 })

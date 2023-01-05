@@ -52,10 +52,19 @@ header {
 }
 
 @media only screen and (max-width: 574px) {
+
+    html {
+        font-size: smaller;
+    }
+
+    p:not(#title) {
+        line-height: 95%;
+    }
+
     #title {
         font-size: 60px;
     }
-
+    
     #footer>li {
         display: block !important;
         float: none !important;
@@ -65,6 +74,11 @@ header {
 
     button {
         display: none !important;
+    }
+
+    .card-img {
+        border: none;
+        background-image: rgba(0 0 0 / 0);
     }
 
     .text-title {
@@ -198,27 +212,30 @@ button:active .button_top {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 5vmin;
-    width: 50vmin;
-    height: 80vmin;
-    padding: .8em;
+    margin: 6vmin;
+    width: 40vmin;
+    height: 60vmin;
+    padding: 2em;
     border-radius: .5rem;
     background: #e0e0e0;
     box-shadow: 20px 20px 60px #9d9d9d, -20px -20px 60px #ffffff;
+    border: solid 2px rgba(255, 255, 255, 0.4);
 }
 
 .card-img {
-    background-color: #ffcaa6;
-    background-image: url('fotos/dev.png');
+    background-color: #fff;
+    background-image: radial-gradient(to bottom, #fff, #000);
     object-fit: cover;
-    height: 70%;
+    height: 66%;
     border-radius: .5rem;
-    transition: .3s ease;
+    border: solid 1px rgba(0 0 0 / 0.3);
+    transition: .3s ease-in-out;
+    box-shadow: 0 10px 10px rgba(0 0 0 / .2);
 }
 
 .card-info {
     flex-grow: 1;
-    padding: 1em;
+    /* padding: 1em; */
     display: flex;
     flex-direction: column;
 }
@@ -228,7 +245,7 @@ button:active .button_top {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.8em;
     line-height: 1.5em;
-    margin-bottom: .3em;
+    margin: .2em 0 .4em 0;
     border-bottom: 2px dashed grey;
 }
 
@@ -239,9 +256,10 @@ button:active .button_top {
     padding: 1em;
 }
 
-.card-img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 10px rgba(0 0 0 / .4);
+.card-img:hover,
+.card-img:focus-within {
+    transform:  scale(1.2);
+    box-shadow: 0 15px 15px rgba(0 0 0 / .4);
 }
 
 div.b4 {

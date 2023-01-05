@@ -11,7 +11,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static',filename='assets/favicon-32x32.png') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static',filename='assets/favicon-16x16.png') }}">
     <link rel="manifest" href="{{ url_for('static',filename='assets/site.webmanifest') }}">
-    <script src="{{ url_for('static',filename='assets/.jpg') }}',filename='scripts/script.js') }}" async defer></script>
+    <script src="{{ url_for('static',filename='scripts/script.js') }}" async defer></script>
     <title>castelan</title>
 </head>
 
@@ -32,20 +32,13 @@
             <div class="card-info">
                 <p class="text-title">El patolino</p>
                 <p class="text-body">Aqui vemos um pato banhando-se numa lagoa. Nossa, quão filosófico.</p>
-                <button>
-                    <span class="button_top">Mais informações...</span>
-                </button>
             </div>
         </div>
         <div class="card">
-            <img src= "{{ url_for('static',filename='assets/2.jpg') }}" class="card-img" />
+            <img src="{{ url_for('static',filename='assets/2.jpg') }}" class="card-img" />
             <div class="card-info">
                 <p class="text-title">Perraio</p>
                 <p class="text-body">Perraro desconfortavelmente perto da câmera</p>
-                <button>
-                    <span class="button_top"> Mais informações...
-                    </span>
-                </button>
             </div>
         </div>
         <div class="card">
@@ -53,10 +46,6 @@
             <div class="card-info">
                 <p class="text-title">Buguinho</p>
                 <p class="text-body">Bug my beloved</p>
-                <button>
-                    <span class="button_top"> Mais informações...
-                    </span>
-                </button>
             </div>
         </div>
         <div class="card">
@@ -64,10 +53,6 @@
             <div class="card-info">
                 <p class="text-title">"Técnicas avançadas de fotografia"</p>
                 <p class="text-body">Por Marco Aurélio</p>
-                <button>
-                    <span class="button_top"> Mais informações...
-                    </span>
-                </button>
             </div>
         </div>
         <div class="card">
@@ -75,10 +60,6 @@
             <div class="card-info">
                 <p class="text-title">Céu</p>
                 <p class="text-body">Céu de um dia bem cedo..</p>
-                <button>
-                    <span class="button_top"> Mais informações...
-                    </span>
-                </button>
             </div>
         </div>
         <div class="card">
@@ -86,10 +67,6 @@
             <div class="card-info">
                 <p class="text-title">Julia</p>
                 <p class="text-body">Minha namorada linda na sua motocicleta</p>
-                <button>
-                    <span class="button_top"> Mais informações...
-                    </span>
-                </button>
             </div>
         </div>
         <div class="card">
@@ -97,10 +74,6 @@
             <div class="card-info">
                 <p class="text-title">Montanha?!<b>7</b> </p>
                 <p class="text-body">Que bela paiagem, não?</p>
-                <button>
-                    <span class="button_top"> Mais informações...
-                    </span>
-                </button>
             </div>
         </div>
         <div class="card">
@@ -108,10 +81,6 @@
             <div class="card-info">
                 <p class="text-title">Motos-serras</p>
                 <p class="text-body">Foto muito pica que eu tirei na serra.</p>
-                <button>
-                    <span class="button_top"> Mais informações...
-                    </span>
-                </button>
             </div>
         </div>
         <div class="card">
@@ -120,10 +89,6 @@
                 <p class="text-title">Fuca</p>
                 <p class="text-body">Foto de um fuca que eu consegui tirar numa posição muito desconfortável dentro de
                     um carro (em movimento!).</p>
-                <button>
-                    <span class="button_top"> Mais informações...
-                    </span>
-                </button>
             </div>
         </div>
         <ul id="footer">
@@ -133,4 +98,5 @@
         </ul>
     </div>
 </body>
+
 </html>
