@@ -1,9 +1,11 @@
 .about_card {
     display: flex;
-    width: 80vw;
-    flex-direction: row;
-    margin: 3%;
+    width: 50%;
+    flex-flow: row wrap;
+    margin: 10%;
     padding: 3%;
+    justify-content: center;
+    align-items: center;
     border-radius: 50px;
     background: #e0e0e0;
     border-radius: 50px;
@@ -12,20 +14,41 @@
                  -20px -20px 20px #ffffff;
 }
 
+.about_card > *:not(#wrapper) {
+    /* flex: 1 100%; */
+}
+
 .about_card-img {
     object-fit: cover;
-    /* height: 20%; */
-    width: 100%;
+    width: 25%;
+    height: 30em;
     border-radius: 3px;
+    clip-path: circle();
 }
 
 .about_card-info {
     padding: 2em;
+    /* height: 30em; */
+    width: 65%;
+}
+
+@media only screen and (max-width: 574px) {
+    .about_card {
+        flex-flow: column;
+        margin: 1%;
+        padding: 2%;
+    }
+
+    .about_card-img {
+        clip-path: none;
+    }
 }
 
 #wrapper {
-    aspect-ratio: 1.618;
-    width: 90vmin;
+    aspect-ratio: 3;
+    /* aspect-ratio: 10 / 1; */
+    width: 100%;
+    /* height: 10vw; */
     position: relative;
   }
   

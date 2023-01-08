@@ -51,7 +51,7 @@ header {
     margin-bottom: 1em;
 }
 
-@media only screen and (max-width: 574px) {
+/* @media only screen and (max-width: 574px) {
 
     html {
         font-size: smaller;
@@ -84,7 +84,7 @@ header {
     .text-title {
         font-size: .9em;
     }
-}
+} */
 
 ul.nav>li {
     display: inline;
@@ -224,7 +224,7 @@ button:active .button_top {
 
 .card-img {
     background-color: #fff;
-    background-image: radial-gradient(to bottom, #fff, #000);
+    /* background-image: radial-gradient(to bottom, #fff, #000); */
     object-fit: cover;
     height: 66%;
     border-radius: .5rem;
@@ -317,4 +317,41 @@ div.b4>p:hover {
     flex-grow: 1;
     padding: 1em;
     font-family: Inter, sans-serif;
+}
+
+@media only screen and (max-width: 574px) {
+
+    html {
+        font-size: smaller;
+    }
+
+    #title {
+        font-size: 60px;
+    }
+    
+    header::before {
+        background-size: 300%;
+        /* height: 5vh; */
+        /* clip-path: inset(1em 1em 1em 1em); */
+    }
+
+    #footer>li {
+        display: block;
+        float: none;
+        text-align: center;
+        padding: .7em;
+    }
+
+    button {
+        display: none;
+    }
+
+    .card-img {
+        border: none;
+        /* background-image: rgba(0 0 0 / 0); */
+    }
+
+    .text-title {
+        font-size: .9em;
+    }
 }
