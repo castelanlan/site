@@ -116,8 +116,10 @@ ul.nav>li>a:active {
     color: white;
 }
 
-ul.nav>p {
+ul.nav>p,
+.castelan-link {
     display: inline;
+    color: #000;
     margin-left: 3vmin;
     line-height: 4rem;
     font-family: Inter, sans-serif;
@@ -125,6 +127,10 @@ ul.nav>p {
     font-weight: 900;
     letter-spacing: -0.05em;
     padding-right: .1em;
+}
+
+.castelan-link {
+    text-decoration: none;
 }
 
   /* The typewriter cursor effect */
