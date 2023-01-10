@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sobre</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/new_about_styles.css') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static',filename='assets/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static',filename='assets/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static',filename='assets/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ url_for('static',filename='assets/site.webmanifest') }}">
+    <!-- <script src="{{ url_for('static',filename='scripts/about_script.js') }}" async defer></script> -->
+</head>
+
+<body>
+    <header id="header">
+        <ul class="nav">
+            <a href="/" class="castelan-link">Castelan</a>
+            <li><a href='index.html'>Voltar</a></li>
+            <!-- <li><a href='contato.html'>Contato</a></li> -->
+        </ul>
+    </header>
+    <div class="content">
+        <div class="about-card">
+            <div class="img-place">
+                    <img class="about-img" src="{{ url_for('static',filename='assets/9.jpg') }}" \>
+            </div>
+            <div class="text-place">
+                <p class="eu"><b>Gabriel Castelan</b></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut semper dui, ac dictum lorem. Quisque ut dolor ipsum. Integer pulvinar neque metus, ut consequat eros placerat non. Donec ante dolor, dignissim et rhoncus a, semper in odio. Cras feugiat leo semper, suscipit dolor a, blandit lorem. Etiam commodo turpis aliquet risus dictum sodales. Cras congue enim vitae tincidunt fermentum. Sed molestie eu diam id ornare. Aenean luctus enim vitae porta dignissim. Quisque porta est lectus, vitae facilisis neque dignissim sed.
+                Nulla gravida cursus sapien vel vestibulum. Nam ut consequat sem, at sodales neque. Curabitur eleifend, ligula in tristique dictum, ex quam venenatis lectus, ut dictum massa enim in nulla. Nulla vel augue id ligula commodo mattis non vitae sem. Sed lacinia semper mi eu dignissim. Nullam quis ornare est, eget luctus lacus. Pellentesque varius tortor odio, sit amet auctor nunc malesuada sit amet. Aliquam nec diam a sem pretium rutrum sed ut odio. Donec est elit, consectetur a tellus vitae, ultrices lobortis lacus. In a gravida tortor, tincidunt finibus dui. Sed vulputate, urna a condimentum rhoncus, tellus velit varius ex, id iaculis sapien lorem ut neque. Sed vel lorem et orci tincidunt sollicitudin. In fringilla, magna nec tempor porttitor, nibh sem ultricies orci, eget gravida diam massa in leo. Aliquam sollicitudin gravida vehicula. Phasellus elementum nisi eu dolor mattis vestibulum. 
+                </p>
+            </div>
+        </div>
+        <ul id="footer">
+            <li><a href="https://github.com/castelanlan/">Github</a></li>
+            <li><a href="https://www.instagram.com/castelanfotografia/">Instagram</a></li>
+            <li><a href="https://linkedin.com">LinkedIn</a></li>
+        </ul>       
+    </div>
+</body>
+
+</html>

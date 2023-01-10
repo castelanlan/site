@@ -1,0 +1,52 @@
+.about-card {
+    display: flex;
+    flex-flow: row;
+    border-radius: .5rem;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #9d9d9d, -20px -20px 60px #ffffff;
+    margin: 5em 0 0 0;
+    /* height: 50vh; */
+    max-width: 80vw;
+}
+
+.img-place {
+    background-color: rgba(0 0 0 / 0.4);
+    filter: drop-shadow(.3em .3em .3em rgba(0 0 0 / 0.5));
+    /* height: 50vh; */
+    display: flex;
+    flex-direction: row;
+}
+
+.about-img {
+    width: 20vw;
+    object-fit: cover;
+    clip-path: circle(10em);
+}
+
+.text-place {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5em;
+    /* width: fit-content; */
+    width: 70%;
+    word-break: break-all;
+
+}
+
+.eu {
+   font-size: 3em;
+}
+
+@media only screen and (max-width: 574px) {
+    .about-card {
+        flex-flow: column;
+    }
+
+    .img-place {
+        justify-content: center;
+    }
+
+    .text-place {
+        padding: 3em;
+        width: inherit;
+    }
+}
