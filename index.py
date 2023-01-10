@@ -10,8 +10,8 @@ def catalogo():
 
 @app.route("/about.html")
 def sobre():
-    return rt('about.html')
+    return rt('new_about.html')
 
-@app.route("/contato.html")
-def contato():
-    return rt('contato.html')
+# @app.route("/contato.html")
+# def contato():
+#     return rt('contato.html')
