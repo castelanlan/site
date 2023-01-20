@@ -10,15 +10,15 @@ Array.prototype.random = function () {
 
 const title = document.getElementById('title')
 title.addEventListener("click", function () {
-    title.innerHTML = synms.random()
     clicks++
-    if (clicks == 3) {
+    if (clicks == 1) {
         pageBottom.scrollIntoView()
+    } else {
+        title.innerHTML = synms.random()
     }
 })
 
 left.addEventListener('click', function() {
     left.style.borderRight = '.15em solid black';
     left.style.animation = 'blink-caret .8s step-end infinite'
-    // left.contentEditable = 'true'
 })

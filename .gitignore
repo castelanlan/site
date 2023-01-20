@@ -2,3 +2,4 @@ __pycache__
 fotos
 static/assets/*.jpg
 run.sh
+supply_pics.py
