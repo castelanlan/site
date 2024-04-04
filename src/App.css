@@ -1,7 +1,3 @@
-/* .App { */
-  /* text-align: center; */
-/* } */
-
 @font-face {
   font-family: Pretendard;
   font-weight: 45 920;
@@ -28,15 +24,15 @@
 
 html {
   background: #fff;
-  background-size: 400% 400%;
+  background-size: 400% 400% !important;
 
-  animation: FundoAnimado 25s ease infinite;
+  animation: FundoAnimado 10s ease infinite;
 }
 
 @keyframes FundoAnimado {
-  0%{background-position:0% 49%}
+  0% {background-position:0% 49%}
   50%{background-position:100% 52%}
-  100%{background-position:0% 49%}
+  100% {background-position:0% 49%}
 }
 
 html {
@@ -45,67 +41,28 @@ html {
 }
 
 body {
-  font-family: Pretendard;
+  font-family: Pretendard, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   display: flex;
   justify-content: center;
   /* height: 100vh; */
-}
-
-a {
-  color: #0f91ff;
 }
 
 main {
   width: 40%;
 }
 
-.subtitle {
-  display: flex;
+.filter {
+  filter: invert();
 }
 
-.subtitle > p {
-  margin-left: 1em;
-  padding: 0 .5em;
+*::selection {
+  color: #6fff00;
+  background-color: transparent;
 }
 
-main > h1, main > p, main > h3 {
-  color: var(--color-text);
-} 
 
-main > h1, main > p, .card-wrapper, .card-text > p {
-  margin-top: 1em;
-}
-
-main > h1 {
-  font-weight: 920;
-  font-size: 80px;
-}
-
-main > p {
-  font-weight: 600;
-  font-size: 18px;
-}
-
-h3 {
-  font-size: 40px;
-  font-weight: 920;
-  color: var(--color-text);
-}
-
-main > h3 {
-  margin: 2em -1em 1em -.2em;
-}
-
-main h3 > a {
-  text-decoration: none;
-  color: var(--color-text);
-  padding: .2em;
-  border-radius: .1em;
-  transition: background-color .2s;
-}
-
-main h3 > a:hover {
-  background-color: rgba(255 255 255 / 0.2);
+a {
+  color: #0f91ff;
 }
 
 .link { 
@@ -124,8 +81,8 @@ main h3 > a:hover {
   background-color: #6d9bff47;
 }
 
-.filter {
-  filter: invert();
+.card-wrapper, .card-text > p {
+  margin-top: 1em;
 }
 
 .card-wrapper {
@@ -192,14 +149,6 @@ main h3 > a:hover {
   align-items: center;
 }
 
-footer {
-  text-align: center;
-  align-self: flex-end;
-  margin-top: 5em;
-  padding-bottom: 5em;
-  color: var(--color-text);
-}
-
 @media (prefers-color-scheme: dark) {
   * {
       --color-text: #fff;
@@ -207,7 +156,7 @@ footer {
   }
 
   html {
-      background: linear-gradient(137deg, #000, #333);
+      background: linear-gradient(90deg, #000, #333);
   }
 
   .link {

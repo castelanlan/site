@@ -1,0 +1,15 @@
+.header>h1 {
+  font-weight: 920;
+  font-size: 80px;
+  color: var(--color-text);
+  margin-top: 1em;
+}
+
+.subtitle {
+  display: flex;
+}
+
+.subtitle>p {
+  margin-left: 1em;
+  padding: 0 .5em;
+}

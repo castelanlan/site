@@ -1,0 +1,7 @@
+.footer {
+  text-align: center;
+  align-self: flex-end;
+  margin-top: 5em;
+  padding-bottom: 5em;
+  color: var(--color-text);
+}
