@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import Content from './components/Content';
 import Footer from './components/Footer';
+import Cards from './components/Cards';
 import './App.css';
 
 function App() {
@@ -10,80 +11,8 @@ function App() {
         <main>
           <Header />
           <Content />
-          {/* <div class="card-wrapper">
-              <div class="card">
-                <div class="card-title">
-                  <img src="./static/livro.svg" alt="" />
-                    <h6>Título do card</h6>
-                </div>
-                <div class="card-text">
-                  <p>Lorem ipsum dolor sit amet, ipsum dolor sit ameti psum dolor sit ametip sum dolor sit ameti psum dolor sit ame tipsum dolor sit amet</p>
-                </div>
-                <div class="card-footer">
-                  <div class="card-theme">
-                    <img src="" alt="" />
-                      <p>Assunto do card</p>
-                  </div>
-                  <img src="./static/coracao.svg" alt="" />
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-title">
-                  <img src="./static/livro.svg" alt="" />
-                    <h6>Título do card</h6>
-                </div>
-                <div class="card-text">
-                  <p>Lorem ipsum dolor sit amet, ipsum dolor sit ameti psum dolor sit ametip sum dolor sit ameti psum dolor sit ame tipsum dolor sit amet</p>
-                </div>
-                <div class="card-footer">
-                  <div class="card-theme">
-                    <img src="" alt="" />
-                      <p>Assunto do card</p>
-                  </div>
-                  <img src="./static/coracao.svg" alt="" />
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-title">
-                  <img src="./static/livro.svg" alt="" />
-                    <h6>Título do card</h6>
-                </div>
-                <div class="card-text">
-                  <p>Lorem ipsum dolor sit amet, ipsum dolor sit ameti psum dolor sit ametip sum dolor sit ameti psum dolor sit ame tipsum dolor sit amet</p>
-                </div>
-                <div class="card-footer">
-                  <div class="card-theme">
-                    <img src="" alt="" />
-                      <p>Assunto do card</p>
-                  </div>
-                  <img src="./static/coracao.svg" alt="" />
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-title">
-                  <img src="./static/livro.svg" alt="" />
-                    <h6>Título do card</h6>
-                </div>
-                <div class="card-text">
-                <p>Lorem ipsum dolor sit amet, ipsum dolor sit ameti psum dolor sit ametip sum dolor sit ameti psum dolor sit ame tipsum dolor sit amet</p>
-                </div>
-                <div class="card-footer">
-                <div class="card-theme">
-                <img src="" alt="" />
-                <p>Assunto do card</p>
-                </div>
-                <img src="./static/coracao.svg" alt="" />
-                </div>
-                </div>
-                </div>
-                <div class="contato">
-                <h3><a href="#contato">Entre em contato →</a></h3><br />
-                <a href="/" class="link">Texto →</a><br />
-                <a href="/" class="link">Texto →</a><br />
-                <a href="/" class="link">Texto →</a><br />
-                <a href="/" class="link">Texto →</a>
-              </div> */}
-              <Footer />
+          <Cards />
+          <Footer />
         </main>
       </body>
     </div>
