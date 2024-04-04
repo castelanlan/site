@@ -25,7 +25,7 @@ function Cards() {
         <div class="card">
           <div class="card-title">
             <img src={livro} alt="" />
-            <h6>Título do card</h6>
+            <h6>Teste do commit</h6>
           </div>
           <div class="card-text">
             <p>Lorem ipsum dolor sit amet, ipsum dolor sit ameti psum dolor sit ametip sum dolor sit ameti psum dolor sit ame tipsum dolor sit amet</p>
