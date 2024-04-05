@@ -1,13 +1,13 @@
 import React from "react";
 import "./header.css"
 
-function Header() {
+function Header(props) {
   return (
     <div className="header">
-      <h1>Olá, eu sou o Gabriel!</h1>
-      <div class="subtitle">
-        <a href="mailto:castelan@castelan.art.br" class="link">castelan@castelan.art.br →</a>
-        <p class="link">📎</p>
+      {/* <h1>Olá, eu sou o Gabriel!</h1> */}
+      <h1>{props.title}</h1>
+      <div>
+        {props.children}
       </div>
     </div>
   );
