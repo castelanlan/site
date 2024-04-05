@@ -18,11 +18,9 @@ function Content() {
         estou cursando Design (3/8 !).
         <br /> <br />
         Vou ter este espaço na web como um portfólio, com um <Link to="/blog">blog</Link> de relatos/experiências/projetos que fiz,
-        e procurar escreveras algo novo no mínimo todo mês!
+        e procurar escrever algo novo no mínimo todo mês!
       </p>
-      <h3 id="blog">
-        <Link to="/blog">Blog →</Link>
-      </h3>
+      <h3 id="blog"><Link to="/blog">Blog →</Link></h3>
       <p>Acompanhe as publicações para ficar por dentro do que eu ando fazendo</p>
     </div>
   );

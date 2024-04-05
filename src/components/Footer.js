@@ -8,7 +8,7 @@ function Footer() {
     <div className="footer">
       <span>
         <Link to="/" class="link">Home</Link>  •
-        <Link to="/contato" class="link">Contato</Link>  •
+        {/* <Link to="/contato" class="link">Contato</Link>  • */}
         <Link to="/sociais" class="link">Sociais</Link>  •
         <Link to="/blog" class="link">Blog</Link></span>
     </div>
