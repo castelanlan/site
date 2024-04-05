@@ -13,9 +13,9 @@ function Content() {
         e procurar escreverasdasdas algo novo no mínimo todo mês!
       </p>
       <h3 id="blog">
-        <a href="/">⚠️ Em construção</a>
+        <a href="/">Blog →</a>
       </h3>
-      <p>Este site ainda está em desenvolvimento, acesse mais tarde para acompanhar!</p>
+      <p>Acompanhe as publicações para ficar por dentro do que eu ando fazendo</p>
     </div>
   );
 }
