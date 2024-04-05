@@ -42,7 +42,11 @@ body {
 }
 
 main {
-  width: 40%;
+  width: 50%;
+}
+
+p {
+  color: var(--color-text);
 }
 
 @keyframes FundoAnimado {
@@ -50,6 +54,7 @@ main {
   50%{background-position:100% 52%}
   100% {background-position:0% 49%}
 }
+
 .filter {
   filter: invert();
 }

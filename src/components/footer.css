@@ -1,7 +1,13 @@
 .footer {
+  display: flex;
   text-align: center;
-  align-self: flex-end;
+  justify-content: center;
   margin-top: 5em;
   padding-bottom: 5em;
   color: var(--color-text);
 }
+
+.footer span {
+  white-space: nowrap;
+}
+
