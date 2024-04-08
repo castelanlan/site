@@ -1,6 +1,14 @@
 import React from "react";
 import "./header.css"
 
+function BlogHeader(props) {
+  return (
+    <div className="header">
+      <h1>{props.children}</h1>
+    </div>
+  );
+}
+
 function Header(props) {
   return (
     <div className="header">
@@ -13,4 +21,5 @@ function Header(props) {
   );
 }
 
-export default Header
+export default Header 
+export { BlogHeader }

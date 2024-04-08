@@ -1,11 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import './footer.css'
 
 function Footer() {
   return (
     <div className="footer">
-      <span><a href="/" class="link">Home →</a> • <a href="/contato" class="link">Contato →</a> • <a href="/sociais" class="link">Sociais →</a></span>
+      <span>
+        <Link to="/" className="link">Home</Link>  •
+        {/* <Link to="/contato" className="link">Contato</Link>  • */}
+        <Link to="/sociais" className="link">Sociais</Link>  •
+        <Link to="/blog" className="link">Blog</Link></span>
     </div>
   );
 }
