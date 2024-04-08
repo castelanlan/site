@@ -7,10 +7,10 @@ function Footer() {
   return (
     <div className="footer">
       <span>
-        <Link to="/" class="link">Home</Link>  •
-        {/* <Link to="/contato" class="link">Contato</Link>  • */}
-        <Link to="/sociais" class="link">Sociais</Link>  •
-        <Link to="/blog" class="link">Blog</Link></span>
+        <Link to="/" className="link">Home</Link>  •
+        {/* <Link to="/contato" className="link">Contato</Link>  • */}
+        <Link to="/sociais" className="link">Sociais</Link>  •
+        <Link to="/blog" className="link">Blog</Link></span>
     </div>
   );
 }

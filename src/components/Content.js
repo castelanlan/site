@@ -7,9 +7,9 @@ function Content() {
   return (
     <div className="content">
       <Header title="Olá, eu sou o Gabriel!">
-        <div class="subtitle">
-          <Link to="mailto:castelan@castelan.art.br" class="link">castelan@castelan.art.br →</Link>
-          <p class="link">📎</p>
+        <div className="subtitle">
+          <Link to="mailto:castelan@castelan.art.br" className="link">castelan@castelan.art.br →</Link>
+          <p className="link">📎</p>
         </div>
       </Header>
       <p>

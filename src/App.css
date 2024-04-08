@@ -4,10 +4,11 @@
   --low-accent: rgba(89 89 89 / 50%);
   --color-text: #000;
   --color-bg: #fff;
+  --color-highlight: #6fff00;
 }
 
 *::selection {
-  color: #6fff00;
+  color: var(--color-highlight);
   background-color: transparent;
 }
 
