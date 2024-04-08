@@ -12,6 +12,13 @@
   background-color: transparent;
 }
 
+*:focus-visible {
+  border-radius: .1em;
+  outline-offset: 5px;
+  outline-color: var(--color-highlight);
+  outline: 2px solid var(--color-highlight) ;
+}
+
 html {
   background: #fff;
   background-size: 400% 400% !important;
