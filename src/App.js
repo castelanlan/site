@@ -21,6 +21,7 @@ function Main() {
     <div className='wrapper'>
       <Routes>
         <Route path="/" element={<Hero />} exact />
+        <Route path="/blog" element={<Blog />} exact />
         <Route path="/blog/:title" element={<Blog />} exact />
         {/* <Route path="/blog/:title" element={<BlogContent />} exact /> */}
         <Route path="/sociais" element={<Sociais />} exact />
