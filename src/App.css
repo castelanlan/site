@@ -21,9 +21,9 @@
 
 html {
   background: #fff;
-  background-size: 400% 400% !important;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; 
   animation: FundoAnimado 20s ease infinite;
+  background-size: 400% 400% !important;
 }
 
 body {
