@@ -1,6 +1,11 @@
-# Tecnologia
+# React
 
-## Post teste de tecnologia, isto deveria ser uma descrição ex amet voluptate adipisicing velit deserunt.
+## Desenvolvimento de projetos em React
 
-Aqui deveria ser o conteúdo do post, formatado em Markdown e depois conversão para jsx/html, não sei ainda.
-Laborum dolor reprehenderit sunt aute amet labore in minim excepteur nostrud non nisi magna. Fugiat dolore dolor incididunt enim officia ipsum officia reprehenderit laborum consectetur. Cillum aliqua aute ut laboris exercitation sit adipisicing mollit. Reprehenderit laboris anim enim labore fugiat aliqua do nostrud aliquip esse mollit est nostrud. Sint ut culpa elit aute consequat. Laboris et consequat ad ad excepteur anim aute elit ea adipisicing elit nostrud. Non reprehenderit ex velit incididunt irure enim in occaecat reprehenderit qui ullamco culpa.
+Dentre as milhões de frameworks de front-end, React é facilmente uma das minhas favoritas. Já criei alguns projetos com essa biblioteca, confira o meu <a href="https://github.com/castelanlan">github</a> para ver mais.<br />
+<h3>O que eu faço?</h3>
+
+Interfaces modernas e que funcionam em qualquer tela. <br />
+Páginas que rodam liso. <br />
+As melhores práticas de desenvolvimento React, pra tudo ficar top. <br />
+Uso de várias bibliotecas, mas não todas as 2.1 milhões do npm.

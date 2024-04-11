@@ -15,6 +15,7 @@ function Card(props) {
     }
   };
   return (
+
     <div className="card" onClick={handleClick}>
       <div className="card-title">
         <img src={livro} alt="Ícone de coração" />
@@ -37,9 +38,9 @@ function Card(props) {
 function Cards() {
   return (
     <div className="card-wrapper">
-      <Card title="Título 1" desc="Descrição 1" assunto="Programação" link="/blog/titulo-1"/>
-      <Card title="Título 2" desc="Descrição 2" assunto="Programação" link="/blog/titulo-2"/>
-      <Card title="Título 3" desc="Descrição 3" assunto="Programação" link="/blog/titulo-3"/>
+      <Card title="React" desc="Meus projetos em React" assunto="Programação" link="/blog/react"/>
+      {/* <Card title="Título 2" desc="Descrição 2" assunto="Programação" link="/blog/titulo-2"/> */}
+      {/* <Card title="Título 3" desc="Descrição 3" assunto="Programação" link="/blog/titulo-3"/> */}
       {/* <div className="card">
           <div className="card-title">
             <img src={livro} alt="" />
