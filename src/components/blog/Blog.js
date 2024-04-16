@@ -1,6 +1,6 @@
 import React from "react";
 import Header, { BlogHeading } from "../Header";
-import Card from "../Cards";
+import Cards from "../Cards";
 import { useParams } from "react-router-dom";
 import { useState } from "react";
 import Markdown from "markdown-to-jsx";
@@ -18,9 +18,7 @@ function Blog() {
         <Header title="Blog" />
         <p>Aqui você vê meus últimos posts</p>
         <h1>2024</h1>
-        <div className="left">
-          <Card title="React" desc="Alguns projetos meus em React" assunto="Programação" link="/blog/react" />
-        </div>
+        <Cards />
       </div>
     );
   } else if (title === "react") {

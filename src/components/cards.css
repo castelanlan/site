@@ -33,15 +33,24 @@
 
 .card-title {
   display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.card-title-title {
+  display: flex;
+  flex-direction: row;
 }
 
 .card-title h6 {
   font-size: 20px;
   font-weight: 700;
+  margin-left: .6em;
 }
 
-.card-title>h6 {
-  margin-left: .6em;
+.card-title p {
+  align-self: flex-end;
+  filter: opacity(50%);
 }
 
 .card-text p {
