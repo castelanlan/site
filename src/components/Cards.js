@@ -42,6 +42,7 @@ function Cards() {
   return (
     <div className="card-wrapper">
       <Card title="React" desc="Meus projetos em React" assunto="Programação" date="08/04/2024" link="/blog/react" />
+      <Card title="Startup Weekend 2024" desc="Minha experiência com o Startup Weekend 2024" assunto="Inovação" date="16/04/2024" link="/blog/sw" />
     </div>
   );
 }

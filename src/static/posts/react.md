@@ -3,7 +3,7 @@
 ## Desenvolvimento de projetos em React
 
 Dentre as milhões de frameworks de front-end, React é facilmente uma das minhas favoritas. Já criei alguns projetos com essa biblioteca, <strong>confira o meu <a href="https://github.com/castelanlan">github</a> para ver mais.</strong><br />
-<h3>O que eu foco?</h3>
+### O que eu foco?
 
 Foco em interfaces modernas e com o máximo de responsividade e acessabilidade. <br />
 As melhores práticas de desenvolvimento React, pra tudo rodar o mais rápido possível, a atenção dos usuários é um item precioso e não deve ser gasta em páginas em branco carregando imagens, fontes, scripts. <br />
