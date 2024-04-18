@@ -42,7 +42,7 @@ function Blog() {
           <Cards />
         </div>
       ) : (
-        <Markdown
+        <Markdown className={`md ${title}`}
           children={texto}
           options={{
             overrides: {

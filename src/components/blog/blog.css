@@ -18,7 +18,31 @@ h1, h2, p {
     margin: .8em 0 .5em 0;
 }
 
-.blog img {
+.md img {
     width: 100%;
     /* clip-path: rect(70px 100% 100% 100% ); */
+}
+
+.md h4 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: var(--color-text);
+}
+
+.sw section {
+    padding: 1em;
+    background-color: rgba(255 255 255 / .1);
+    border-radius: .5em;
+    /* --sw-sete-color: var(--color-text); */
+}
+
+.sw section:hover {
+    transform: scale(1.05);
+    --sw-sete-color: red;
+    --sw-sete-font-scale: 2em;
+}
+
+.sw section span {
+    color: var(--sw-sete-color);
+    font-size: var(--sw-sete-font-scale);
 }

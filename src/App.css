@@ -10,7 +10,7 @@
 
 *::selection {
   color: var(--color-highlight);
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 *:focus-visible {
@@ -69,8 +69,15 @@ a {
 }
 
 .wrapper {
-  max-width: 60vw;
-  min-width: 60vw;
+  /* max-width: 60vw; */
+  /* min-width: 60vw; */
+  width: 33vw;
+}
+
+@media screen and (max-width: 700px) {
+  .wrapper {
+    width: 80vw;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
