@@ -17,3 +17,8 @@ h1, h2, p {
 .blog h3 {
     margin: .8em 0 .5em 0;
 }
+
+.blog img {
+    width: 100%;
+    /* clip-path: rect(70px 100% 100% 100% ); */
+}

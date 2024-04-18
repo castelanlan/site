@@ -19,7 +19,7 @@ function Card(props) {
     <div className="card" onClick={handleClick}>
       <div className="card-title">
         <div className="card-title-title">
-          <img src={livro} alt="Ícone de coração" />
+          <img src={livro} alt="Ícone de livro" />
           <h6>{props.title}</h6>
         </div>
         <p>{props.date}</p>

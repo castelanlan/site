@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  transition: all .2s;
   --low-accent: rgba(89 89 89 / 50%);
   --color-text: #000;
   --color-bg: #fff;
