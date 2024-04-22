@@ -13,7 +13,7 @@ function Hero() {
         <Content />
         <Cards />
     </div>
-  )
+  );
 }
 
 function Main() {
@@ -26,7 +26,7 @@ function Main() {
         <Route path="/sociais" element={<Sociais />} exact />
       </Routes>
     </div>
-  )
+  );
 }
 
 function App() {
