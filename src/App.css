@@ -6,6 +6,7 @@
   --color-text: #000;
   --color-bg: #fff;
   --color-highlight: #6fff00;
+  --shadow: 0 2px 4px 2px rgba(0 0 0 / 25%);
 }
 
 *::selection {
@@ -69,8 +70,6 @@ a {
 }
 
 .wrapper {
-  /* max-width: 60vw; */
-  /* min-width: 60vw; */
   width: 33vw;
 }
 
@@ -88,7 +87,6 @@ a {
 
   html {
       background: linear-gradient(120deg, #000, #333);
-      /* background: linear-gradient(120deg, #000, #fff); */
   }
 
   .link {
