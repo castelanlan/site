@@ -1,6 +1,9 @@
 .card-wrapper,
-.card-text>p {
+.card-text>p,
+.card-theme>p,
+.card-title>p {
   margin-top: 1em;
+  color: #fff;
 }
 
 .card-wrapper {
